@@ -5,6 +5,12 @@ div {
   font-size: 17.5px;
   margin: 0;
 }
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 1;
+}
 .sector,
 .title {
   display: block;
@@ -16,11 +22,17 @@ div {
 }
 .video-description-container {
   display: grid;
-  grid-template-columns: 1250px;
+  grid-template-columns: 1fr;
   text-align: justify;
   line-height: 1.9;
 }
+.video-description {
+  width: 84%;
+  padding-left: 7%;
+}
 .video-preview-container {
+  display: grid;
+  grid-template-columns: 1fr;
   width: 320px;
   height: 280px;
   margin-top: 50px;
