@@ -1,0 +1,93 @@
+p,
+span,
+div {
+  font-family: Dosis;
+  font-size: 17.5px;
+  margin: 0;
+}
+.sector,
+.title {
+  display: block;
+}
+.video-container-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video-description-container {
+  display: grid;
+  grid-template-columns: 1250px;
+  text-align: justify;
+  line-height: 1.9;
+}
+.video-preview-container {
+  width: 320px;
+  height: 280px;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: rgb(229, 247, 253);
+  box-shadow: 0 0 13.4px rgba(58, 70, 75, 0.4);
+}
+.video-preview {
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-preview:hover {
+  cursor: pointer;
+}
+.video-preview:active {
+  opacity: 0.8;
+}
+.title {
+  color: #000;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  transition: color 0.20s;
+  width: 8%;
+  margin: 0 auto 0 auto;
+}
+.title:hover {
+  color: rgb(45, 168, 240);
+  text-shadow: 0 1px 5px rgba(44, 159, 226, 0.45);
+  cursor: pointer;
+  
+}
+.title:active {
+  opacity: 0.5;
+}
+.click-the-preview {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.paragraph {
+  text-align: justify;
+  text-align: left;
+}
+.lyrics-container {
+  padding-top: 40px;
+  padding-bottom: 40px; 
+}
+.lyrics {
+  display: block;
+  padding: 10px;
+}
+.link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-shadow: 0 0 1px rgba(92, 3, 3, 0.55);
+}
+.link:active {
+  opacity: 0.6;
+}
+.full-lyrics {
+  width: 10000px;
+}
+.sector {
+  text-decoration: under;
+}
