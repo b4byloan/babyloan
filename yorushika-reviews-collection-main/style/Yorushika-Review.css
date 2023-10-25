@@ -6,6 +6,14 @@ div {
   margin: 0;
   width: 100%;
 }
+.yorushika-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 47% 0 48%;
+  padding: 12px 0 0 0;
+  width: 4%;
+  border-radius: 100px;
+}
 h1 {
   display: flex;
   flex-direction: row;
@@ -68,7 +76,7 @@ h1 {
   padding-top: 10px;
   transition: color 0.20s;
   width: 10%;
-  margin: 0 48% 0 48%;
+  margin: 0 47% 0 47%;
 }
 .title:hover {
   color: rgb(45, 168, 240);
