@@ -1,0 +1,31 @@
+@media (max-width: 1600px) {
+  .video-container {
+    margin: 0;
+  }
+
+  .video-container,
+  .video {
+    height: 100%;
+  }
+  
+  iframe {
+    height: 100%;
+  }
+}
+
+.video {
+  height: 40vh;
+}
+
+@media(max-width: 800px) {
+  body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1600px) {
+  div iframe {
+   width: 100%;
+   height: 100%;
+ }
+}
