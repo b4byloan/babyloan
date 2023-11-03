@@ -1,0 +1,16 @@
+.video-container {
+  width: 75%;
+  height: 100%;
+  margin: 0;
+}
+
+.video-info {
+  width: 75%;
+  padding: 15px;
+}
+
+.link a {
+  text-decoration: underline;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
