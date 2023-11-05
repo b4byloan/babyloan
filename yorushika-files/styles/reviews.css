@@ -1,27 +1,49 @@
+.yorushika-content-container {
+  background-color: rgb(10, 9, 9);
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: -225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to top,  #00000000, #080c0e);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.yorushika-description {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
 .review-section {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #3c4e57;
+  background-color: rgb(61, 78, 87);
   width: 100%;
   height: 100%;
   padding: 20px 20px 20px 20px;
-  margin: 0 0 40px 0;
+  margin: 100px 0 60px 0;
+  background: linear-gradient(to bottom,  #00000000, #00000000);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
 }
 
 .review-tag {
   background-color: #0f1214;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   position: absolute;
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 170px;
+  width: 30%;
   height: 40px;
   top: -40px;
-  left: 0;
-
 }
 
