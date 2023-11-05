@@ -9,8 +9,21 @@
   padding: 15px;
 }
 
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  background: linear-gradient(to bottom, #141414, #181818);
+}
+
 .link a {
   text-decoration: underline;
   color: #ffffff;
-  padding-bottom: 20px;
+}
+
+.video-title {
+  text-align: center;
+  margin: 0 auto 10px auto;
+  width: 50%;
 }
