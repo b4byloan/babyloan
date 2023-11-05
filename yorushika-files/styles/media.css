@@ -17,9 +17,14 @@
   height: 40vh;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 500px) {
   body {
     padding: 0;
+    margin: 115px 0;
+  }
+  
+  nav {
+    width: 0;
   }
 }
 
