@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin: 0 50% 0 50%;
   background: linear-gradient(to top,  #00000000, #080c0e);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -47,3 +48,6 @@
   top: -40px;
 }
 
+.video-starter-description {
+  margin: 20px 0;
+}
