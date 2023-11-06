@@ -17,12 +17,16 @@
   height: 40vh;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 550px) {
   body {
     padding: 0;
-    margin: 115px 0;
+    margin: 300px 0;
   }
   
+  .yorushika-content-container {
+    margin: 0;
+  }
+
   nav {
     width: 0;
   }
