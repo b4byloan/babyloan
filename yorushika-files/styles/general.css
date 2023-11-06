@@ -16,7 +16,6 @@ section a {
   color: #ffffff;
 }
 
-
 header {
   z-index: 100;
   position: fixed;
@@ -86,4 +85,11 @@ nav {
   top: 70px;
   bottom: 0;
   z-index: 100;
+}
+
+span {
+  display: block;
+  height: 20px;
+  text-align: center;
+  margin: 0 0 10px 0;
 }
